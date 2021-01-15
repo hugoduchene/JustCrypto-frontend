@@ -20,7 +20,7 @@ const HeaderLayout = () => {
 
 export const Layout = ({children, hiddenHeader}) => {
     return(<>
-        <SafeAreaProvider style={{backgroundColor: "#4433FF"}}>
+        <SafeAreaProvider style={{backgroundColor: "#fff"}}>
             {hiddenHeader ?? <HeaderLayout/>}
             {children}
         </SafeAreaProvider>

@@ -11,9 +11,10 @@ export const Button = ({info}) => {
 
 const Styles = StyleSheet.create({
     container: {
-        width: "80%"
+        width: "60%"
     },
     basic: {
+        borderRadius: 10,
         elevation: 10,
         borderColor: "#000000",
         shadowColor: "black",
@@ -21,7 +22,7 @@ const Styles = StyleSheet.create({
         shadowOffset: { width: 0, height: 1 },
         shadowOpacity: 1,
         marginTop: 15,
-        backgroundColor: "#25283D",
+        backgroundColor: "#636591",
         padding: 15,
         color: "white",
         textAlign: "center",
